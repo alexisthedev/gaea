@@ -1,0 +1,187 @@
+/* General Styles */
+
+* {
+    box-sizing: 16px;
+    /* overflow: hidden; */
+    scroll-behavior: smooth;
+}
+
+html {
+    font-family: 'Raleway', sans-serif;
+    font-size: 16px;
+}
+
+body {
+    overflow: hidden;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    display: inline-block;
+    height: 100%;
+}
+
+h2{
+    font-size: 8rem;
+    font-weight: bold;
+}
+
+h3 {
+    font-size: 2rem;
+}
+
+.text {
+    position: relative;
+    top: 70%;
+    color: white;
+    padding-left: 2rem;
+}
+
+.text h3 {
+    padding-left: 1rem;
+}
+
+/* Header Section */
+
+.header {
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    width: 100%;
+    height: 10vh;
+    background: rgb(237, 148, 33);
+    display: flex;
+    justify-content: space-between;
+}
+
+.header img {
+    height: 100%;
+}
+
+.header .nav {
+    background-color: white;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header .nav .box {
+    height: 100%;
+    padding: 0 2rem;
+    display: inline-flex;
+    align-items: center;
+}
+
+.header .nav .box:hover {
+    background-color: rgb(237, 148, 33);
+}
+
+.header .nav .box p {
+    flex-shrink: 1;
+    font-size: 2rem;
+}
+
+/* Welcome Section */
+
+.welcome {
+    width: 100%;
+    height: 100vh;
+    background: url('./resources/welcome.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Mission Section */
+
+.mission {
+    width: 100%;
+    height: 100vh;
+    background: url('./resources/mission.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Products Section */
+
+.products {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: baseline;
+    align-content: center;
+}
+
+.products .box {
+    width: 320px;
+    flex-shrink: 0;
+    display: inline-flex;
+    flex-flow: column;
+    align-items: center;
+}
+
+.products .box h3 {
+    margin: 4rem 0 1rem 0;
+}
+
+/* Land Section */
+
+.land {
+    width: 100%;
+    height: 100vh;
+    background: url('./resources/culture.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* People Section */
+
+.people {
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    background: url('./resources/people.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.people h2 {
+    position: relative;
+    top: 20%;
+    color: white;
+    font-size: 6rem;
+}
+
+.people .us {
+    position: relative;
+    top: 30%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.people .us .box {
+    display: inline-flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.people .us .box img {
+    height: 20rem;
+    width: 25rem;
+}
+
+.people .us .box h3 {
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+}
