@@ -50,7 +50,7 @@ h3 {
     z-index: 10;
     width: 100%;
     height: 10vh;
-    background: rgb(237, 148, 33);
+    background: rgb(247,148,29);
     display: flex;
     justify-content: space-between;
 }
@@ -75,7 +75,7 @@ h3 {
 }
 
 .header .nav .box:hover {
-    background-color: rgb(237, 148, 33);
+    background-color: rgb(247,148,29);
 }
 
 .header .nav .box p {
